@@ -53,6 +53,7 @@
      <Compile Include="Assets\CS4590 Final Project\Scripts\First-Person Controller\FPSInputController.cs" />
      <Compile Include="Assets\CS4590 Final Project\Scripts\First-Person Controller\MouseLook.cs" />
      <Compile Include="Assets\CS4590 Final Project\Scripts\First-Person Controller\PlatformInputController.cs" />
+     <Compile Include="Assets\CS4590 Final Project\Scripts\GoogleGlass.cs" />
      <Compile Include="Assets\CS4590 Final Project\Scripts\toiletFlush.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
