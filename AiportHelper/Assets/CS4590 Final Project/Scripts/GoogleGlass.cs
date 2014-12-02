@@ -3,9 +3,10 @@ using System.Collections;
 
 public class GoogleGlass : MonoBehaviour {
 	private GUIStyle currentStyle = null;
+	public string myGuiString = "Flight Information \n Flight 16 \n 12:37 PM ";
 	// Use this for initialization
 	void Start () {
-		
+
 	}
 	
 	// Update is called once per frame
@@ -23,11 +24,12 @@ public class GoogleGlass : MonoBehaviour {
 		currentStyle.normal.background = makeTextureForBox (Color.white); // makes a box style class, 
 		// then you attach it to the box object. You can also make text styles and so on, and attach
 		// to the corresponding objects
+		//currentStyle.normal.textColor = Color.black;
 
-
-//		GUI.contentColor = Color.yellow; <--text color
+		GUI.contentColor = Color.black; //<--text color
 //		GUI.color = Color.white;
-		GUI.Box (new Rect (spaceW,10,glassW, glassH), "Say Ok Google to start", currentStyle);
+		GUI.Box (new Rect (spaceW,10,glassW, glassH), "Say 'Ok Google' to start \n SFO - JFK \n Delta Airline \n On time ", currentStyle);
+		myGuiString = GUI.TextField (new Rect(spaceW+5,20,glassW-400,glassH-20), myGuiString,25); 
 
 	}
 	private Texture2D makeTextureForBox( Color col )
