@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{14A6B30C-EF14-426A-F8A9-815D7EE31C3C}</ProjectGuid>
+	<ProjectGuid>{EA3100C3-C6A9-67B2-DF31-EF332C57172E}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -53,8 +53,13 @@
      <Compile Include="Assets\CS4590 Final Project\Scripts\First-Person Controller\FPSInputController.cs" />
      <Compile Include="Assets\CS4590 Final Project\Scripts\First-Person Controller\MouseLook.cs" />
      <Compile Include="Assets\CS4590 Final Project\Scripts\First-Person Controller\PlatformInputController.cs" />
+     <Compile Include="Assets\CS4590 Final Project\Scripts\First-Person Controller\lowbeatCrowd.cs" />
+     <Compile Include="Assets\CS4590 Final Project\Scripts\FoodCourt.cs" />
      <Compile Include="Assets\CS4590 Final Project\Scripts\GoogleGlass.cs" />
+     <Compile Include="Assets\CS4590 Final Project\Scripts\airportSecurity.cs" />
+     <Compile Include="Assets\CS4590 Final Project\Scripts\beatCrowded.cs" />
      <Compile Include="Assets\CS4590 Final Project\Scripts\toiletFlush.cs" />
+     <Compile Include="Assets\CS4590 Final Project\Scripts\trainAnn.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

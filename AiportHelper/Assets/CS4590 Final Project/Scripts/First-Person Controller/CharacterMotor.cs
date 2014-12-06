@@ -205,6 +205,7 @@ public class CharacterMotor : MonoBehaviour
 
     private void UpdateFunction()
     {
+		movement.maxForwardSpeed = 5.0f;
         // We copy the actual velocity into a temporary variable that we can manipulate.
         Vector3 velocity = movement.velocity;
 

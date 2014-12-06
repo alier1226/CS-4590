@@ -4,7 +4,7 @@ using System.Collections;
 public class Alarm : MonoBehaviour {
 	public AudioClip clip1;
 	public AudioClip clip2;
-	float depTime = 25.0f;
+	float depTime = 30.0f;
 	bool played2 = false;
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,7 @@ public class Alarm : MonoBehaviour {
 	void Update () {
 		depTime -= Time.deltaTime;
 		if (depTime > 10) {
-			audio.pitch = 1+( 1 / 15.0f * (25-depTime));
+			audio.pitch = 1+( 1 / 15.0f * (30-depTime));
 
 		}
 		else if (depTime <=10 && played2 == false){

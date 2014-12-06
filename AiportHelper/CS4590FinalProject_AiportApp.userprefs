@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CS4590 Final Project\Scripts\trainAnn.cs">
+    <Files>
+      <File FileName="Assets\CS4590 Final Project\Scripts\airportSecurity.cs" Line="23" Column="5" />
+      <File FileName="Assets\CS4590 Final Project\Scripts\trainAnn.cs" Line="16" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -9,7 +9,9 @@ public class toiletFlush : MonoBehaviour {
 		Debug.Log ("toilet triggered");
 		toilet.Play();	
 	}
-	
+	void OnTriggerExit(Collider other){
+		toilet.Stop ();
+	}
 	// Use this for initialization
 	void Start () {
 		
